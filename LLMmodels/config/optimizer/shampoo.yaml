@@ -1,0 +1,8 @@
+optimizer_name: "shampoo"
+learning_rate: 5e-3
+weight_decay: 0.1
+momentum: 0.9
+beta2: 0.999
+eps: 1e-10
+update_freq: 1
+inverse_order: 4

@@ -1,0 +1,8 @@
+optimizer_name: "asgo"
+learning_rate: 0.01
+weight_decay: 0.1
+momentum: 0.9
+beta2: 0.8
+damping: 1e-10
+inv_method: '_matrix_inverse_root_PolarExpress'  # '_matrix_inverse_root_newtonschulz', '_matrix_inverse_root_PolarExpress'
+matalg_steps: 10

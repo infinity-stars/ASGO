@@ -1,0 +1,30 @@
+defaults:
+  - dataset: ???
+  - model: ???
+  - optimizer: ???
+  - _self_
+
+train:
+  # Wandb: Logging Parameters: 
+  wandb_entity: ???
+  wandb_project: ???
+  wandb_name: "ASGO-Experiment"
+  # Training Parameters:
+  train_steps: 2400
+  batch_size: 32
+  test_batch_size: 32
+  device: "cuda"
+  verbose: false
+  train_verbose_step: 1
+  seed: 42
+  DDP: True
+  gradient_accumulation_steps: 8
+  dataset_path: "/projects/bfgo/data"
+  # Gradient Clipping Parameters:
+  global_clip_value: 1.0
+  # Learning Rate Scheduler Parameters:
+  warmup_factor: 1e-3
+  min_lr: 1e-6
+  # validation Parameters:
+  val_iters: 200
+  val_steps: 100

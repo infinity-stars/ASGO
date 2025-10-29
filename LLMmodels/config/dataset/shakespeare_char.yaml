@@ -1,0 +1,4 @@
+dataset_name: 'shakespeare_char'
+dataset_path: "/scratch/user/u.ka167251/data"
+block_size: ${model.block_size}
+vocab_size: 65

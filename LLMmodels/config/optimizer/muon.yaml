@@ -1,0 +1,4 @@
+optimizer_name: "muon"
+learning_rate: 0.01
+weight_decay: 0.1
+momentum: 0.9
