@@ -6,7 +6,7 @@ Paper: [https://arxiv.org/abs/2503.20762](https://arxiv.org/abs/2503.20762)
 
 ## Overview
 
-ASGO is a optimizer that combines adaptive preconditioning with structured gradient optimization for training deep neural networks. This repository provides implementations of ASGO and related optimizers for language model training.
+ASGO is an optimizer that combines adaptive preconditioning with structured gradient optimization for training deep neural networks. This repository provides implementations of ASGO and related optimizers for language model training.
 
 ## Repository Structure
 
@@ -86,17 +86,13 @@ python LLMmodels/main.py optimizer.learning_rate=0.01 train.batch_size=64
 
 ## Citation
 
-If you use this code in your research, please cite:
-
 ```bibtex
-@misc{an2025asgoadaptivestructuredgradient,
-      title={ASGO: Adaptive Structured Gradient Optimization},
-      author={Kang An and Yuxing Liu and Rui Pan and Yi Ren and Shiqian Ma and Donald Goldfarb and Tong Zhang},
-      year={2025},
-      eprint={2503.20762},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.20762},
+@inproceedings{an2025asgo,
+  title={ASGO: Adaptive Structured Gradient Optimization},
+  author={An, Kang and Liu, Yuxing and Pan, Rui and Ren, Yi and Ma, Shiqian and Goldfarb, Donald and Zhang, Tong},
+  booktitle={NeurIPS},
+  year={2025},
+  url={https://arxiv.org/abs/2503.20762}
 }
 ```
 
